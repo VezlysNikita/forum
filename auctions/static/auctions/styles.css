@@ -1,0 +1,210 @@
+
+
+body {
+    padding: 10px;
+    color:whitesmoke;
+    background-color: #191919;
+    font-family:"DrukWideBold";
+}
+
+.card {
+  background-color:#0288d1;
+  outline: 7px solid rgba(0, 153, 255, 0.445);
+}
+
+.card-body {
+  margin-left:110px;
+}
+
+#cat {
+  color: rgb(252, 239, 56);
+}
+
+#readmore {
+  position:absolute;
+  margin-left:850px;
+  width:170px;
+  height: 40px;
+  margin-top:20px;
+  margin-left:740px;
+  background-color: rgba(255, 206, 71, 0.911);
+}
+
+.card-body {
+  max-width:1200px;
+}
+
+#pagename {
+  color: rgb(255, 243, 74);
+}
+
+
+#image {
+  position:absolute;
+  width: 10%;
+  height: 8vw;
+  object-fit: cover;
+}
+
+#unavailable {
+  outline: 7px dashed rgba(255, 0, 64, 0.76);
+}
+
+
+#pgtitle {
+    font-size:70px;
+    text-align: center;
+}
+
+
+.nav {
+  display: flex;
+  justify-content: right;
+
+}
+
+#username {
+  margin-left:10px;
+}
+
+#status {
+  display: flex;
+  justify-content: left;
+  margin-left:10px;
+  color: rgb(255, 243, 74);
+  position:relative;
+  top: 35px;
+}
+
+#pagrindinisbtn {
+  position:relative;
+  left:-150%;
+  color: rgb(255, 243, 74);
+  display:inline-block;
+  border-bottom:4px solid rgb(255, 243, 74);
+  padding-bottom:3px;
+  
+}
+
+#logoff {
+  color: rgb(255, 243, 74);
+  display:inline-block;
+  border-bottom:4px solid rgb(255, 243, 74);
+  padding-bottom:3px;
+  
+}
+
+#logoff:hover {
+  background-color: rgb(255, 101, 74);
+  border-color: rgb(255, 101, 74);
+}
+
+#logoff:focus {
+  background-color: rgb(255, 101, 74);
+  border-color: rgb(255, 101, 74);
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset, rgba(46, 54, 80, 0.075) 0 1px 1px, rgba(104, 101, 235, 0.5) 0 0 0 .2rem;
+}
+
+.create {
+  margin-left:-20px;
+}
+
+#pagrindinisbtn:hover {
+  background-color: rgb(255, 101, 74);
+  border-color: rgb(255, 101, 74);
+}
+
+#pagrindinisbtn:focus {
+  background-color: rgb(255, 101, 74);
+  border-color: rgb(255, 101, 74);
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset, rgba(46, 54, 80, 0.075) 0 1px 1px, rgba(104, 101, 235, 0.5) 0 0 0 .2rem;
+}
+
+
+#loginbtn {
+  margin-right:6px;
+}
+
+#registerbtn {
+  margin-right:10px;
+}
+
+
+
+.nav-item {
+  position:relative;
+
+}
+
+.button-20:focus:not(:focus-visible),
+.button-20:focus {
+  outline: 0;
+}
+
+.button-20:hover {
+  background-color: #3733E5;
+  border-color: #3733E5;
+}
+
+.button-20:focus {
+  background-color: #413FC5;
+  border-color: #3E3BBA;
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset, rgba(46, 54, 80, 0.075) 0 1px 1px, rgba(104, 101, 235, 0.5) 0 0 0 .2rem;
+}
+
+.button-20:active {
+  background-color: #3E3BBA;
+  background-image: none;
+  border-color: #3A38AE;
+  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset;
+}
+
+.button-20:active:focus {
+  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset, rgba(104, 101, 235, 0.5) 0 0 0 .2rem;
+}
+
+.button-20:disabled {
+  background-image: none;
+  box-shadow: none;
+  opacity: .65;
+  pointer-events: none;
+}
+
+
+
+
+.button21:focus:not(:focus-visible),
+.button21:focus {
+  outline: 0;
+}
+
+.button21:hover {
+  background-color: rgb(255, 243, 74);
+  border-color: rgb(255, 243, 74);
+}
+
+.button21:focus {
+  background-color: rgb(255, 243, 74);
+  border-color: rgb(255, 243, 74);
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset, rgba(46, 54, 80, 0.075) 0 1px 1px, rgba(104, 101, 235, 0.5) 0 0 0 .2rem;
+}
+
+.button21:active {
+  background-color: rgb(255, 243, 74);
+  background-image: none;
+  border-color: rgb(255, 243, 74);
+  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset;
+}
+
+.button21:active:focus {
+  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset, rgba(104, 101, 235, 0.5) 0 0 0 .2rem;
+}
+
+.button21:disabled {
+  background-image: none;
+  box-shadow: none;
+  opacity: .65;
+  pointer-events: none;
+}
+
+
